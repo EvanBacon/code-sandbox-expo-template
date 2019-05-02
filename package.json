@@ -1,0 +1,30 @@
+{
+  "name": "expo",
+  "version": "0.1.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "next",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-native-web": "0.11.2"
+  },
+  "devDependencies": {
+    "xdl": "latest"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [],
+  "description": ""
+}
